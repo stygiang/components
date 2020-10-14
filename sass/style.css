@@ -6,9 +6,6 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 100vh; }
 
 * {
@@ -40,6 +37,7 @@ p {
   padding: 2rem;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   border: 2px solid #A22522; }
 
 .col1 {
@@ -61,3 +59,18 @@ p {
     box-shadow: 3px 0 6px rgba(162, 37, 34, 0.685); }
   .col2 {
     box-shadow: 0 3px 4px rgba(162, 37, 34, 0.685); } }
+
+.card {
+  margin-top: 2rem;
+  height: 20rem;
+  width: 40rem;
+  border-radius: .5rem;
+  background-color: #A22522; }
+  .card:not(:last-child) {
+    margin-right: 2rem; }
+  .card:last-child {
+    margin-left: 2rem; }
+
+@media (max-width: 850px) {
+  .card {
+    flex: 100%; } }

@@ -10,4 +10,26 @@
 @import "base/utilities";      
 
 @import "pages/section1.scss";        
-                                                                  
+.card{
+    margin-top: 2rem;
+    height: 20rem;
+    width: 40rem; 
+    border-radius: .5rem;
+    background-color: $main-color;
+    &:not(:last-child){
+        margin-right: 2rem;   
+    }
+    &:last-child{ 
+        margin-left: 2rem;
+    }
+}           
+@media (max-width:850px){
+    .card{
+        flex:100%;
+    }
+}          
+// @media (max-width: 883px)  {
+//     .card:last-child{ 
+//         margin-left: -2rem;
+//     }
+// }                 
