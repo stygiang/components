@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans:wght@300;400;600&display=swap");
+html {
+  font-size: 62.5%; }
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #A22522;
+  display: inline-block;
+  margin-bottom: 2rem;
+  margin-top: 2rem; }
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem; }
+
+.u-center-text {
+  text-align: center; }
+
+.row {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 2px solid #A22522; }
+
+.col1 {
+  box-shadow: 3px 0 4px rgba(0, 0, 0, 0.685); }
+
+.col2 {
+  box-shadow: 3px 0 4px rgba(162, 37, 34, 0.685);
+  width: 40rem; }
+
+.imgs {
+  width: auto;
+  height: 15.3rem;
+  margin-bottom: -.3rem; }
+
+@media screen and (max-width: 644px) {
+  .imgs {
+    width: 40rem; }
+  .col1 {
+    box-shadow: 3px 0 6px rgba(162, 37, 34, 0.685); }
+  .col2 {
+    box-shadow: 0 3px 4px rgba(162, 37, 34, 0.685); } }
